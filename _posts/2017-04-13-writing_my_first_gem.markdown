@@ -53,7 +53,7 @@ So I 'view source'ed the page and took a look.  All the data I wanted were there
 
 So I started again, scaffolding the gem, creating the CLI and testing with fake data, then building the data model to return fake data, and finally built the Scraper class.  As expected it's got some messy code, but it works:
 
-```ruby
+```
   def self.scrape_beers
     doc = Nokogiri::HTML(open(ROOT_URL+'/lists/top/'))
     rows = doc.css('#ba-content table tr')
@@ -72,8 +72,8 @@ So I started again, scaffolding the gem, creating the CLI and testing with fake 
       rating: row.children[2].children[0].text
     }
   end
-	```
-	
+```
+
 ## Implementation Notes
 Since this assignment is supposed to be less about scraping and more about the process of designing and building a gem, I wanted to comment on some of the design decisions that I made.
 
