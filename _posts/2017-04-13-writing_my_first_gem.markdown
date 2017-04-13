@@ -39,7 +39,8 @@ Wait a minute, nothing was returned?  I went back to mlb.com, double-checked my 
 As I pondered the question, with the Developer Tools open to the mlb.com webpage, I saw the DOM change before my eyes and it occurred to me that this is a dynamic webpage and much of the content is loaded by javascript after the page loads.  So I right-clicked on the webpage and chose 'View source' to get an idea of what the static portion of the page looks like.  Ah hah!  None of the selectors I had been trying to scrape were anwhere to be found.
 
 The learning event here is that Nokogiri can only scrape data loaded by the server: (from https://www.distilled.net/resources/web-scraping-with-ruby-and-nokogiri-for-beginners/)
-> There are some limitations to scraping with Nokogiri.  The biggest limitation is that you’ll only be able to scrape page content that is loaded server side.  If content is loaded on a page using Ajax you will not be able to scrape it with Nokogiri alone. 
+
+>There are some limitations to scraping with Nokogiri.  The biggest limitation is that you’ll only be able to scrape page content that is loaded server side.  If content is loaded on a page using Ajax you will not be able to scrape it with Nokogiri alone. 
 
 There are [ways around this](https://morph.io/documentation/scraping_javascript_sites), of course, but this seemed to be taking me too outside the assignment scope.
 
