@@ -1,0 +1,21 @@
+# Site settings
+title: Musings of an Aspriing Software Developer
+header-img: img/home-bg.png
+email: michael.ries@gmail.com
+copyright_name: mikeries
+description: > # this means to ignore newlines until "baseurl:"
+  My path to success
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  mikeries
+learn_profile: mikeries
+email_username: michael.ries@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
