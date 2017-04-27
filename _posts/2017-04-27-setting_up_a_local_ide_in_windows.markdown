@@ -96,7 +96,7 @@ At this point, you're ready to go.  I'll follow up with another blog post with m
 
 By now, things should be looking pretty familiar!
 
-I'd appreciate any feedback you have.  You can reach me on slack at @mikeries, email me at michael.ries@gmail.com, or you can submit an issue here: https://github.com/mikeries/mikeries.github.io/issues
+I'd appreciate any feedback you have.  You can reach me on slack at @michaelries, email me at michael.ries@gmail.com, or you can submit an issue here: https://github.com/mikeries/mikeries.github.io/issues
 
 
 
