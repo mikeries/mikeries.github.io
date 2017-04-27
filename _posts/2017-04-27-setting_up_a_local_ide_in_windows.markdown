@@ -21,7 +21,7 @@ One reason is that the virtual machine can be almost any OS that you choose, pro
 
 The responsibility of the hypervisor is to make the *guest* VM believe that it is inside its own little universe, and to provide it with access to the 'real world' using an interface that the guest OS understands.  That means that when the guest OS wants to put the phrase "Hello World" on the screen, it does so just as it normally would, and the hypervisor  translates it for the *host OS*, which writes it to the screen.
 
-As an aside, this pattern exemplifies many software development patterns - [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming), [interfaces](https://en.wikipedia.org/wiki/Interface_(computing), the [adaptor design pattern](https://en.wikipedia.org/wiki/Adapter_pattern),  and others, but that discussion is worthy of another blog post (or 3).
+As an aside, this pattern exemplifies many software development patterns - [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)), [interfaces](https://en.wikipedia.org/wiki/Interface_(computing)), the [adaptor design pattern](https://en.wikipedia.org/wiki/Adapter_pattern),  and others, but that discussion is worthy of another blog post (or 3).
 
 So now that we understand a bit about what a virtual machine is and what it does, let's move on to actually setting one up for our local IDE.
 
