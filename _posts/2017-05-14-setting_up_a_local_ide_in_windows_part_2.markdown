@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Setting up a local IDE in windows Part 2
-date:   2017-05-14 02:47:50 +0000
+date:   2017-05-13 22:47:50 -0400
 ---
 
 ## Optimizing your experience
@@ -18,14 +18,17 @@ About 2 weeks ago I posted a walkthrough on how to set up your own [local IDE wi
   * VirtualBox will give you a window corresponding to each virtual monitor.
   * To use the second (or third, or forth) monitors you need to configure them inside the VM. Whisker Menu -> Settings -> Display will let you set their resolutions, choose a primary display, and orient them.  I have to confess that this particular settings dialog seems pretty buggy.  I was never able to convince it that my second screen is actually on my left rather than might right.  But since a 'monitor' is really just a VirtualBox window, I can drag it wherever I please and it works fine.
 
+
 3.  Shut down your VM and go back into the VirtualBox settings for your VM. There are a few other things to take a look at.
   * Under General -> Advanced you have some choices for sharing the clipboard and drag and drop between the VM and the host.  This allows you to copy and paste to and/or from the host machine to the virtual machine.  Very useful if you find yourself working between both OSs.  I find myself sticking to linux almost exclusively when I'm developing, but I have them both set to 'Bidirectional' anyway.  Who knows when I'm going to want to drag and drop that cute puppy picture from Windows into my Slack channel?
   * In the System group, you have a couple of tabs of interest.  First, in the Motherboard tab, you can adjust the amount of RAM that you initially allocated when you installed.  When I installed, I gave 4MB RAM to the VM out of 8MB physical RAM, and I haven't had any reason to change it.  In the Processor tab, you can enable your VM to use multiple processors.  When I installed originally, I left this at the default of 1 processor.  When I started having issues with Zoom, I bumped this up to 3 processors and haven't had any more problems.
   * The only other tab I've had reason to play with is the User Interface.  In this tab, you can customize the menus that appear inside the VirtualBox window while you're interacting with your VM.  In my case, I disabled them entirely as I don't use them and they get in the way.  That way I can go into fullscreen mode and completely forget that I'm actually running a windows application.  I just have to remember that Right-Ctrl-F is how to get back into "windowed mode" so that I can access my windows OS.
 
+
 4. Install Cairo or some other dock.  Cairo provides me with a couple things I really like.  
   * First, it gives me a Mac-like animated dock where I can drag and drop shortcuts (launchers in linux-speak) to quickly access things I use often.  Mine has Chrome, Atom, Zoom, Gmail, VioletUML, Terminal, DB Browser for SQLite, Screenshot, and a few others.  It's configured to automatically hide, but appear when I move my mouse to the bottom of the screen. 
   * The second thing is that it provides me with multiple workspaces.  I can have one (dual monitor) workspace set up for plowing through lessons, and another workspace for slack, email, music, etc.  And I can switch between them with a single click or even by scroll wheel if I mouse over the icon in the menu bar.  If you've never used multiple workspaces, you should definitely try it out.  There are windows apps to do this too, if you're curious, but it seems more prevalent in the linux world.
+
 
 5.  Other Ubuntu/Linux apps that I've found useful
   * [VioletUML](http://alexdp.free.fr/violetumleditor/page.php)  I know Avi loves gliffy, but it's way more than I need and it costs money after a couple weeks.  VioletUML isn't as polished, but if all you want to do is draw some simple UML diagrams to help you make it through those tough ActiveRecord Associations labs, this is really easy.  And it works in both Windows AND Linux.
@@ -34,6 +37,7 @@ About 2 weeks ago I posted a walkthrough on how to set up your own [local IDE wi
   * [Vokoscreen](https://github.com/vkohaupt/vokoscreen)  You'll need a way to record yourself while coding or walking through your portfolio projects.  Vokoscreen is a very simple and easy to use program that does exactly this.
   * [ Open Broadcaster Software](https://obsproject.com/)  I have to admit that I installed this as an alternative to vokoscreen, but I've never used it.  It's clearly way more polished and powerful, but the learning curve is too high.  I think it has some editing features that some of you might find useful, so I put it on this list.
   * [Git Kraken](https://www.gitkraken.com/)  I heard about this one on Slack today.  It's a GUI interface for git, and it's beautiful.  You probably won't need 10% of its features until well after graduation.  But I mention it because it might help you visualize your branches and commits, especially when pairing.  And it has an "Undo" button that should make you more comfortable exploring Git's capabilities for collaborations.
+
 
 I'll be interested in hearing what useful tools and tweaks you discover!  DM me on slack at @michaelries.
 
