@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Setting up a local IDE in windows Part 2
+title:  Setting up a local IDE in Windows Part 2
 date:   2017-05-13 22:47:50 -0400
 ---
 
