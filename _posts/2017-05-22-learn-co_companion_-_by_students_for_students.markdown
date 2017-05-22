@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Learn-Co Companion - By Students, For Students
-date:   2017-05-22 01:40:24 +0000
+date:   2017-05-21 21:40:25 -0400
 ---
 
 
@@ -24,6 +24,8 @@ ActiveRecords makes it very easy to use STI.  I created a base class called *Cur
 STI is very easy, but it can break down quickly if your subclasses start requiring attributes that aren't part of the base class.  In my case, as I was implementing the belongs_to relationships that I needed, I had to add additional columns to the table: lesson_id, unit_id, topic_id, track_id, and even student_id.  These were needed so that a lesson knew what unit and student it belonged to, a unit knew what topic it belonged to, and so on.  Even though some of these extra columns were only relevant to 1 of the 4 classes represented in the table, the column exists for all records, leading to a lot of NULL values in the database.
 
 In the end, I still think STI was the right choice for this, but it is easy to see how it could get out of control, and why it has a bit of a bad reputation these days.
+
+After I pass my assessment, I'm thinking it might be fun to open up development of this project to the Learn community as a real open-source project.  I think it would be a great opportunity for students to participate in the development of a real app in a team environment, and this is one that we can all relate to.
 
 More reading:
 
