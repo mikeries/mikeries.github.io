@@ -17,7 +17,7 @@ An alternative is to run a different OS *inside of windows*.  What does that mea
 
 > I'm still confused.  My Windows OS already does this, why do I need this *virtual machine*?  
 
-One reason is that the virtual machine can be almost any OS that you choose, provided that you have installation media.  In effect, the program that is running believes that it is on a computer with the chosen OS. In effect, you'll run all your usual apps (email client, browser, minecraft, etc.) but you'll have an additional app -- the hypervisor --which is like another computer running its own programs inside.
+One reason is that the virtual machine can be almost any OS that you choose, provided that you have installation media.  In effect, the program that is running believes that it is on a computer with the chosen OS. So you can run all your usual apps (email client, browser, minecraft, etc.) but you'll have an additional app -- the hypervisor --which is like another computer running its own programs inside.
 
 The responsibility of the hypervisor is to make the *guest* VM believe that it is inside its own little universe, and to provide it with access to the 'real world' using an interface that the guest OS understands.  That means that when the guest OS wants to put the phrase "Hello World" on the screen, it does so just as it normally would, and the hypervisor  translates it for the *host OS*, which writes it to the screen.
 
