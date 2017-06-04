@@ -43,7 +43,7 @@ There are many [options for virtualization](https://www.davescomputers.com/suppo
 13. When prompted, choose to erase the disk and install Xubuntu.  **Don't worry, it's not going to erase any of your windows files!**  Remember, Xubuntu doesn't have any idea that it isn't the only thing on your computer.
 14. Go through the rest of the setup process, selecting your timezone, keyboard preference, computer name, and creating a login.  You might want to check the box 'automatically log in'.  **Remember your password!**
 15. The downloading and installing takes a while.  Go take a shower.
-16. After you towel off and get dressed, you should see "Installation Complete" and pressing the button will restart.  When I do this, I get an error about 'no valid rapl domains', and it hangs.  From the Xubuntu menu, choose Machine->Reset, read the warning, and then press reset to continue.
+16. After you towel off and get dressed, you should see "Installation Complete" and pressing the button will restart.  When I do this, I get an error about 'no valid rapl domains', and it hangs.  From the VirtualBox menu, choose Machine->Reset, read the warning, and then press reset to continue.
 17. It boots!  You now have a Xubuntu virtual machine running on windows!
 
 ## Adding Guest Additions
