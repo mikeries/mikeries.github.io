@@ -74,6 +74,7 @@ VirtualBox comes with additional software that can be installed in the guest OS 
 1. Open chrome, and navigate to https://learn.co/manual_setup.  Be sure to do this from within the VM!  The page should tell you something like 'Manually Configure Your Environment For Ubuntu Linux".
 1. *Carefully* follow the instructions on that page, and *don't miss the steps before step 1*. **TIP: You can copy and paste from the browser window to your terminal, but pay attention you don't copy the remarks**
 1. The installation may stop occasionally and ask if you want to continue.  Just enter "y".
+1. In step 3, the line with the 'curl' is out of date.  Run this instead: `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
 1. In step 6, before installing RVM, you will need to run an addional command before proceeding: `source /home/<yourname>/.rvm/scripts/rvm`  Then you can run the `rvm install 2.3.1` and `rvm use 2.3.1 --default` commands.
 1. In step 8, you need to do `sudo apt install npm` before you can continue.
 1. In step 10 you need to `sudo apt install git` before you can continue, and be sure to use your own email and name!
