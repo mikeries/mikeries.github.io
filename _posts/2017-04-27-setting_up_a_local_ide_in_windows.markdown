@@ -89,7 +89,7 @@ VirtualBox comes with additional software that can be installed in the guest OS 
 5. Open Atom.  Choose file->Open Folder.  Navigate to your home directory, select the 'code' directory.
 
 ## Welcome to your local IDE!
-At this point, you're ready to go.  I'll follow up with another blog post with more tips and things you might need, but one is so good that I don't want to wait.  **It's live!: [Setting up a Local IDE in Windows Part 2](http://michaelries.info/2017/05/14/setting_up_a_local_ide_in_windows_part_2/)
+At this point, you're ready to go.  I'll follow up with another blog post with more tips and things you might need, but one is so good that I don't want to wait.  **Update** It's live!: [Setting up a Local IDE in Windows Part 2](http://michaelries.info/2017/05/13/setting_up_a_local_ide_in_windows_part_2/)
 1. Inside Atom, press ctrl-comma to open the settings page.
 2. Choose install from the left, and type 'platformio-ide-terminal' in the search box.  Be sure the 'packages' button on the right is selected (instead of themes) and then press enter.
 3. You should see the platformio-ide-terminal package at the top of the list.  Click install.
@@ -97,7 +97,7 @@ At this point, you're ready to go.  I'll follow up with another blog post with m
 
 By now, things should be looking pretty familiar!
 
-I'd appreciate any feedback you have.  You can reach me on slack at @michaelries, email me at michael.ries@gmail.com, or you can submit an issue here: https://github.com/mikeries/mikeries.github.io/issues
+I'd appreciate any feedback you have.  You can reach me on slack at @michaelries, email me at michael.ries@gmail.com, or you can submit an issue here: [https://github.com/mikeries/mikeries.github.io/issues](https://github.com/mikeries/mikeries.github.io/issues)
 
 
 
