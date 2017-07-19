@@ -102,15 +102,15 @@ The nice thing about this implementation is that there isn't any need to encode/
     }).then(response => (response.json()));
   },
 ```
-	
-	Now for the disclaimers.  This method does cause a page refresh when you first log in, because the api redirects to facebook, and then back to the client.  I'm not sure it's possible to avoid this unless the OAuth provider supports authentication without a redirect.
-	
-	Also, I've left out some of details for the error handling.  That's next on my to-do list.
-	
-	As always, please feel free to contact me with any questions, suggestions, corrections, or just to say hi.
-	
-	Slack: @michaelries
-	email: michael.ries@gmail
+
+Now for the disclaimers.  This method does cause a page refresh when you first log in, because the api redirects to facebook, and then back to the client.  I'm not sure it's possible to avoid this unless the OAuth provider supports authentication without a redirect.
+
+Also, I've left out some of details for the error handling.  That's next on my to-do list.
+
+As always, please feel free to contact me with any questions, suggestions, corrections, or just to say hi.
+
+Slack: @michaelries
+email: michael.ries@gmail
 	
 [API Github Repository](http://https://github.com/mikeries/dive-log-api)
 [Client Github Repository](https://github.com/mikeries/dive-log-client)
