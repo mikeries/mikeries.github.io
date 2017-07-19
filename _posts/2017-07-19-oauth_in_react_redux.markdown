@@ -101,7 +101,7 @@ The nice thing about this implementation is that there isn't any need to encode/
       headers: headers
     }).then(response => (response.json()));
   },
-	```
+```
 	
 	Now for the disclaimers.  This method does cause a page refresh when you first log in, because the api redirects to facebook, and then back to the client.  I'm not sure it's possible to avoid this unless the OAuth provider supports authentication without a redirect.
 	
