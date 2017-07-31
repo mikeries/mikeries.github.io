@@ -111,7 +111,7 @@ As always, please feel free to contact me with any questions, suggestions, corre
 Slack: @michaelries
 email: michael.ries@gmail
 	
-[API Github Repository](http://https://github.com/mikeries/dive-log-api)
+[API Github Repository](https://github.com/mikeries/dive-log-api)
 [Client Github Repository](https://github.com/mikeries/dive-log-client)
 
 
