@@ -104,7 +104,9 @@ The nice thing about this implementation is that there isn't any need to encode/
 
 Now for the disclaimers.  This method does cause a page refresh when you first log in, because the api redirects to facebook, and then back to the client.  I'm not sure it's possible to avoid this unless the OAuth provider supports authentication without a redirect.
 
-Also, I've left out some of details for the error handling.  That's next on my to-do list.
+Also, there's a pretty big caveat -- this method isn't very secure unless you use https on the client so that the token isn't viewable by everyone.  If you use http, then the token is passed to the client in an unencrypted query parameter which is easly stolen.  And once a nefarious person has the JWT, they can pretend to be you.
+
+UPDATE 8-3-2017:  I've nearly finished implementing an alternative that is much more secure and doesn't require a page reload.  I'll be sure to write a new post when it's done and put a link to it here.
 
 As always, please feel free to contact me with any questions, suggestions, corrections, or just to say hi.
 
