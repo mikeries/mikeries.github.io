@@ -71,7 +71,7 @@ VirtualBox comes with additional software that can be installed in the guest OS 
 7. Sign in to chrome, so that your settings/bookmarks/etc. will be synced.
 
 ### Set Up For Learn
-1. Open chrome, and navigate to https://learn.co/manual_setup.  Be sure to do this from within the VM!  The page should tell you something like 'Manually Configure Your Environment For Ubuntu Linux".
+1. Open chrome, and navigate to https://github.com/learn-co-curriculum/linux-env-setup.  Be sure to do this from within the VM!
 1. *Carefully* follow the instructions on that page, and *don't miss the steps before step 1*. **TIP: You can copy and paste from the browser window to your terminal, but pay attention you don't copy the remarks**
 1. The installation may stop occasionally and ask if you want to continue.  Just enter "y".
 1. In step 3, the line with the 'curl' is out of date.  Run this instead: `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
